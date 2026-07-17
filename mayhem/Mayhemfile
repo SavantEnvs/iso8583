@@ -1,0 +1,8 @@
+project: savantenvs/iso8583
+target: iso8583-reader-fuzz
+cmds:
+  - cmd: /mayhem/iso8583-reader-fuzz
+    libfuzzer: true
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/iso8583-reader-fuzz/testsuite
