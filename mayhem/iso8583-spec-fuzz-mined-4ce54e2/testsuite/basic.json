@@ -1,0 +1,1 @@
+{"name":"basic","fields":{"0":{"type":"String","length":4,"description":"MTI","enc":"ASCII","prefix":"ASCII.Fixed"},"1":{"type":"Bitmap","length":8,"description":"Bitmap","enc":"HexToASCII","prefix":"Hex.Fixed"},"2":{"type":"String","length":19,"description":"PAN","enc":"ASCII","prefix":"ASCII.LL"}}}
